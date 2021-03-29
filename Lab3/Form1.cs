@@ -446,6 +446,7 @@ namespace Lab3
             formHeight = this.ClientSize.Height;
             try
             {
+                if (arPoints!=null)
                 for (int i = 0; i < arPoints.Count; i++)
                 {
                     int height = arPoints[i].Y;
